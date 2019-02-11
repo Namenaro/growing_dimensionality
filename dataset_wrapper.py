@@ -15,12 +15,12 @@ import numpy as np
 import pickle as pkl
 import BaselineWanderRemoval as bwr
 
-# Порядок отведений
-lead_name = 'i'
+
+lead_name = 'i' # первое отведение
 pkl_filename = "C:\\ecg_new\\dataset_healthy.pkl" #создадим такой файл и сохраним сюда все отобранные данные
 FREQUENCY_OF_DATASET = 500
-signal_len = 5000
-raw_dataset_path="C:\\ecg_200\\ecg_data_200.json"
+signal_len = 5000 
+raw_dataset_path="C:\\ecg_200\\ecg_data_200.json" #файл с датасетом
 
 def healthy(diagnos):
     is_heathy =True
